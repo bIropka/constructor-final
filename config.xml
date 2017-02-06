@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<structure>
+		<element id="header-nav">
+			<path>header</path>
+			<name>Навигация</name>
+		</element>
+		<element id="header">
+			<name>Шапка</name>
+			<elements>
+				<element id="header-info_logo">
+					<name>Логотип</name>
+				</element>
+				<element id="header-info_separator">
+					<name>Разделитель</name>
+				</element>
+				<element id="header-info_form-search">
+					<name>Форма поиска</name>
+					<settings>
+						<setting id="input_width">
+							<title>Ширина поля ввода</title>
+							<type>size</type>
+							<default>30%</default>
+						</setting>
+						<setting id="button_color">
+							<title>Цвет кнопки</title>
+							<type>color</type>
+							<default>#ff7e21</default>
+						</setting>
+					</settings>
+				</element>
+				<element id="header-info_callback">
+					<name>Обратный звонок</name>
+				</element>
+				<element id="header-info_address">
+					<name>Адрес</name>
+					<settings>
+						<setting id="city">
+							<default>г. Москва</default>
+						</setting>
+						<setting id="address_1">
+							<default>Кутузовский проспект, д 31, лит. А</default>
+						</setting>
+						<setting id="address_2">
+							<default>Время работы: Пн - Сб 9:00 - 19:00</default>
+						</setting>
+					</settings>
+				</element>
+				<element id="header-nav">
+					<name>Навигация</name>
+						<settings>
+						<setting id="about_company">
+							<default>О компании</default>
+						</setting>
+						<setting id="kontakty">
+							<default>Контакты</default>
+						</setting>
+						<setting id="akcii">
+							<default>Акции</default>
+						</setting>
+					</settings>
+				</element>
+			</elements>
+		</element>
+		<element id="content">
+			<name>Контент</name>
+			<elements>
+				<element id="sidebar-before">
+					<name>Левый сайдбар</name>
+					<elements>
+						<element id="menu">
+							<path>content/sidebar</path>
+							<name>Меню</name>
+						</element>
+						<element id="megamenu">
+							<path>content/sidebar</path>
+							<name>Мегаменю</name>
+						</element>
+						<element id="menu-chbx">
+							<path>content/sidebar</path>
+							<name>Меню с чекбоксами</name>
+						</element>
+					</elements>
+				</element>
+				<element id="main">
+					<name>Центральная часть</name>
+					<elements>
+						<element id="banner">
+							<name>Баннер</name>
+							<settings>
+								<setting id="title_top">
+									<default>Наборы с </default>
+								</setting>
+								<setting id="title_bottom">
+									<default>Надувными песочницами</default>
+								</setting>
+							</settings>
+						</element>
+						<section id="products">
+							<name>Продукты</name>
+						</section>
+						<element id="products-1" section="products">
+							<name>Продукты 1</name>
+						</element>
+						<element id="products-2" section="products">
+							<name>Продукты 2</name>
+						</element>
+						<element id="products-3" section="products">
+							<name>Продукты 3</name>
+						</element>
+						<element id="products-4" section="products">
+							<name>Продукты 4</name>
+						</element>
+						<element id="text-block-1">
+							<name>Текстовый блок 1</name>
+						</element>
+						<element id="text-block-2">
+							<name>Текстовый блок 2</name>
+						</element>
+						<element id="text-block-3">
+							<name>Текстовый блок 3</name>
+						</element>
+						<element id="text-block-4">
+							<name>Текстовый блок 4</name>
+							<settings>
+								<setting id="title">
+									<default>Четыре иконки с текстовым блоком</default>
+								</setting>
+							</settings>
+						</element>
+					</elements>
+				</element>
+				<element id="sidebar-after">
+					<name>Правый сайдбар</name>
+					<elements>
+						<element id="menu">
+							<path>content/sidebar</path>
+							<name>Меню</name>
+						</element>
+						<element id="megamenu">
+							<path>content/sidebar</path>
+							<name>Мегаменю</name>
+						</element>
+						<element id="menu-chbx">
+							<path>content/sidebar</path>
+							<name>Меню с чекбоксами</name>
+						</element>
+					</elements>
+				</element>
+			</elements>
+		</element>
+		<element id="footer">
+			<name>Подвал</name>
+			<elements>
+				<element id="footer-element_1">
+					<name>Элемент 1</name>
+					<settings>
+						<setting id="about">
+							<default>Высококачественные строительные работы в Санкт-Петербурге и Москве по низким ценам с гарантией. Продажа строительных материалов с доставкой на дом.</default>
+						</setting>
+					</settings>
+				</element>
+				<element id="footer-element_2">
+					<name>Элемент 2</name>
+				</element>
+				<element id="footer-element_3">
+					<name>Элемент 3</name>
+				</element>
+				<element id="footer-element">
+					<name>Собранный подвал</name>
+				</element>
+			</elements>
+		</element>
+	</structure>
+</config>
